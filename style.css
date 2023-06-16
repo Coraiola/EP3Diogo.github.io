@@ -41,38 +41,3 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-  /* Estilos para dispositivos móveis */
-  @media (max-width: 767px) {
-    /* Ajuste a largura conforme necessário */
-    body {
-      font-size: 14px; /* Exemplo de ajuste de tamanho da fonte para dispositivos móveis */
-    }
-  
-    /* Ajuste o layout dos elementos conforme necessário */
-    .city-info {
-      width: 100%; /* Exemplo de ajuste da largura do elemento para ocupar toda a largura da tela */
-      padding: 10px; /* Exemplo de espaçamento interno para dispositivos móveis */
-    }
-  
-    /* Esconda ou ajuste elementos específicos para dispositivos móveis */
-    .desktop-only {
-      display: none; /* Exemplo de ocultação de elementos que devem ser mostrados apenas em desktops */
-    }
-  }
-  
-  /* Estilos para computadores */
-  @media (min-width: 768px) {
-    /* Ajuste o layout dos elementos conforme necessário para computadores */
-    .city-info {
-      width: 50%; /* Exemplo de ajuste da largura do elemento para ocupar metade da largura da tela */
-      margin: 0 auto; /* Exemplo de centralização horizontal do elemento */
-      padding: 20px; /* Exemplo de espaçamento interno para computadores */
-    }
-  
-    /* Esconda ou ajuste elementos específicos para computadores */
-    .mobile-only {
-      display: none; /* Exemplo de ocultação de elementos que devem ser mostrados apenas em dispositivos móveis */
-    }
-  }
-  
